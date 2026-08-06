@@ -79,7 +79,9 @@ document.getElementById("btn16").addEventListener("click", function () {
 // na #caixa17
 //
 // Dica: use .style.border = "3px solid red"
-
+document.getElementById("btn17").addEventListener("click", function () {
+    document.getElementById("caixa17").style.border = "3px solid red";
+}   );
 
 
 // ---------- Exercicio 18 ----------
