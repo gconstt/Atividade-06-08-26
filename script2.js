@@ -64,7 +64,14 @@ document.getElementById("btn15").addEventListener("click", function () {
 // Se esta escondido (display == "none"), mostre.
 //
 // Dica: use um if/else com .style.display
-
+document.getElementById("btn16").addEventListener("click", function () {
+    const texto = document.getElementById("texto16"); 
+    if (texto.style.display === "none") { 
+        texto.style.display = "block";
+    } else { 
+        texto.style.display = "none";
+    }
+});
 
 
 // ---------- Exercicio 17 ----------
