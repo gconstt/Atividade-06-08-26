@@ -50,7 +50,12 @@ document.getElementById("btn14").addEventListener("click", function () {
 //
 // Dica: use document.createElement("li"), .textContent
 // e .appendChild()
-
+document.getElementById("btn15").addEventListener("click", function () {
+    const novoItem = document.createElement("li");
+    const valorInput = document.getElementById("input15").value;
+    novoItem.textContent = valorInput;
+    document.getElementById("lista15").appendChild(novoItem);
+}   );
 
 
 // ---------- Exercicio 16 ----------
