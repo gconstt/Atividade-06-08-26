@@ -106,5 +106,5 @@ document.getElementById("btn9").addEventListener("click", function () {
 //
 // Dica: use .src = "nova-url"
 document.getElementById("btn10").addEventListener("click", function () {
-    document.getElementById("imagem10").src = "https://th.bing.com/th/id/OIP.Q6NHFn9j5lZ_vb4YepoyyQHaEK?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3";
+    document.getElementById("imagem10").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQItG1hDhv8HkMcEZ5_lttP_tr4vGrl3Gl8DlLJH5arsA&s";
 }); 
