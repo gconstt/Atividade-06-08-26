@@ -39,7 +39,9 @@ document.getElementById("btn13").addEventListener("click", function () {
 // Ao clicar no botao, remova todos os itens da #lista14
 //
 // Dica: use .innerHTML = ""
-
+document.getElementById("btn14").addEventListener("click", function () {
+    document.getElementById("lista14").innerHTML = "";
+}   );
 
 
 // ---------- Exercicio 15 ----------
