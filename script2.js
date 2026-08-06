@@ -8,7 +8,10 @@
 // Ao clicar no botao #btn11, desabilite-o
 //
 // Dica: use .disabled = true
-
+document.getElementById("btn11").addEventListener("click", function () {
+    document.getElementById("btn11").disabled = true;  
+    this.style.backgroundColor = "gray"; 
+});
 
 
 // ---------- Exercicio 12 ----------
