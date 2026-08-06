@@ -30,7 +30,9 @@ document.getElementById("btn12").addEventListener("click", function () {
 // #texto13 para "32px"
 //
 // Dica: use .style.fontSize = "32px"
-
+document.getElementById("btn13").addEventListener("click", function () {
+    document.getElementById("texto13").style.fontSize = "32px";
+});
 
 
 // ---------- Exercicio 14 ----------
