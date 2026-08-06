@@ -72,7 +72,11 @@ document.getElementById("btn6").addEventListener("click", function () {
 // e mostre dentro do #resultado7
 //
 // Dica: use .value para pegar o texto do input
-
+document.getElementById("btn7").addEventListener("click", function () {
+    const input = document.getElementById("input7");
+    const resultado = document.getElementById("resultado7");
+    resultado.textContent = input.value;
+});
 
 
 // ---------- Exercicio 8 ----------
