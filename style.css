@@ -40,7 +40,7 @@ main {
 }
 
 .exercicio {
-  background-color: #fff;
+  background-color: #00ffb3;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
@@ -58,8 +58,8 @@ main {
 }
 
 button {
-  background-color: #1a1a2e;
-  color: #fff;
+  background-color: #ff0095;
+  color: #001aff;
   border: none;
   padding: 10px 20px;
   border-radius: 6px;
