@@ -19,7 +19,10 @@ document.getElementById("btn11").addEventListener("click", function () {
 // de "Curtir" para "Curtido!"
 //
 // Dica: use .textContent no proprio botao
-
+document.getElementById("btn12").addEventListener("click", function () {
+    this.textContent = "Curtido!";
+    this.style.backgroundColor = "green"; 
+});
 
 
 // ---------- Exercicio 13 ----------
