@@ -105,3 +105,6 @@ document.getElementById("btn9").addEventListener("click", function () {
 // "https://placecats.com/300/200"
 //
 // Dica: use .src = "nova-url"
+document.getElementById("btn10").addEventListener("click", function () {
+    document.getElementById("imagem10").src = "https://th.bing.com/th/id/OIP.Q6NHFn9j5lZ_vb4YepoyyQHaEK?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3";
+}); 
