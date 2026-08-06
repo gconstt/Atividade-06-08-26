@@ -92,7 +92,12 @@ document.getElementById("btn8").addEventListener("click", function () {
 // Ao clicar no botao, remova o ultimo <li> da #lista9
 //
 // Dica: use .lastElementChild e .removeChild()
-
+document.getElementById("btn9").addEventListener("click", function () {
+    const lista = document.getElementById("lista9");    
+    if (lista.lastElementChild) {
+        lista.removeChild(lista.lastElementChild);
+    }
+});
 
 
 // ---------- Exercicio 10 ----------
